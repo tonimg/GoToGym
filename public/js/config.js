@@ -3,10 +3,10 @@ angular.module('gymApp')
     $locationProvider.html5Mode(true)
     $routeProvider
       .when('/', {
-        templateUrl: 'templates/home.html',
+        templateUrl: 'index.html',
         controller: 'homeController'
       })
-      .when('/about', {
+      .when('about.html', {
         template: '<h1>About</h1>'
       })
   })
