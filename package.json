@@ -1,7 +1,6 @@
 {
   "name": "gym",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "bower": "^1.8.0",
@@ -18,5 +17,10 @@
     "dev": "supervisor app"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "description": ""
 }

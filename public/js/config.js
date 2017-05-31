@@ -1,12 +1,25 @@
 angular.module('gymApp')
   .config(function ($routeProvider, $locationProvider) {
-    $locationProvider.html5Mode(true)
+    // $locationProvider.html5Mode(true)
+
     $routeProvider
       .when('/', {
-        templateUrl: 'index.html',
+        templateUrl: '../templates/home.html',
         controller: 'homeController'
       })
-      .when('about.html', {
-        template: '<h1>About</h1>'
+      .when('/login', {
+        templateUrl: '../templates/login.html'
+      })
+      .when('/register', {
+        templateUrl: '../templates/register.html'
+      })
+      .when('/contact', {
+        templateUrl: '../templates/contact.html'
+      })
+      .when('/about', {
+        templateUrl: '../templates/about.html'
+      })
+      .when('/locations', {
+        templateUrl: '../templates/locations.html'
       })
   })

@@ -7,16 +7,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>GYMAPP</title>
-  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="/css/locations.css">
+
 </head>
 
 <body>
 
-  <div ng-include src="'templates/includes/header.html'"></div>
+<div ng-include src="'templates/includes/header.html'"></div>
 
-  <ng-view></ng-view>
-
+<div class="container"></div>
+<div ng-view></div>
 
   <!-- Script Angular -->
   <script type="text/javascript" src="https://opensource.keycdn.com/angularjs/1.6.2/angular.min.js 

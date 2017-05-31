@@ -1,34 +1,121 @@
+<!-- modal login -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Login form</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <div class="input-group pb-modalreglog-input-group">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-group pb-modalreglog-input-group">
+              <input type="password" class="form-control" id="pws" placeholder="Password">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Log in</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal register -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Registration form</h4>
+      </div>
+      <div class="modal-body">
+        <form class="pb-modalreglog-form-reg">
+          <div class="form-group">
+            <div id="pb-modalreglog-progressbar"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <div class="input-group pb-modalreglog-input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-group pb-modalreglog-input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input type="password" class="form-control" id="inputPws" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="confirmpassword">Confirm password</label>
+            <div class="input-group pb-modalreglog-input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input type="password" class="form-control" id="inputConfirmPws" placeholder="Confirm Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="ch" name="chs"> I agree with <a href="#">terms and conditions.</a>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- header -->
 <header class="main-header" id="header">
   <nav class="one-page-header navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
       <div class="menu-container page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <i class="icon-bar"></i>
+          <i class="icon-bar"></i>
+          <i class="icon-bar"></i>
         </button>
       </div>
+    <img id="logo-header" src="../../img/logo.png">
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <div class="menu-container">
           <ul class="nav navbar-nav">
             <li class="page-scroll home">
-              <a href="../../index.html"><span data-hover="Home">Home</span></a>
+              <a href="/"><span data-hover="Home">Home</span></a>
             </li>
             <li class="page-scroll">
-              <a href="#services"><span data-hover="Register">Register</span></a>
+              <a href="#gallery"><span data-hover="About">Gallery</span></a>
+            </li>
+            <li>
+              <a href="#"><span data-toggle="modal" data-target="#myModal" data-hover="Login">Login</span></a>
+            <li>
+              <a href="#"><span data-toggle="modal" data-target="#myModal2" data-hover="Login">Register</span></a>
             </li>
             <li class="page-scroll">
-              <a href="#studios"><span data-hover="Login">Login</span></a>
+              <a href="/contact"><span data-hover="Contact">Contact</span></a>
             <li class="page-scroll">
-              <a href="#contact"><span data-hover="Contact">Contact</span></a>
-              </li>
-            <li class="page-scroll">
-              <a href="../about.html"><span data-hover="About">About</span></a>
+              <a href="/about"><span data-hover="About">About</span></a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
   </nav>
 </header>
