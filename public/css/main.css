@@ -1,42 +1,18 @@
-/* css cover background image
+/* font
 ---------------------------------- */
-.cover_home {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: url(../img/img1.jpg) no-repeat center center fixed;
-  opacity: 0.3;
-  height: 100vh;
+
+* {
+  font-family: 'Oleo Script', cursive;
 }
 
-.cover_center {
-  position: absolute;
-  height: 130%;
-  width: 100%;
-  background: url(../img/img2.jpg) no-repeat center center fixed;
-  opacity: 0.3;
-  height: 100vh;
+#relative {
+  position: relative;
 }
 
-/* Test parallax custom 
----------------------------------- */
-[class*="cover_"] {
-  height: 100vh;
-  text-indent: -9999px;
-  /* fix background */
-  background-attachment: fixed;
-  /* center it */
-  background-position: center center;
-  /* Scale it nicely to the element */
-  background-size: cover;
-  /* just make it look a bit better ;) */
-  &:nth-child(2n) {
-    box-shadow: inset 0 0 1em #111;
-  }
-}
 
 /* Title
 ---------------------------------- */
+
 .wrapper {
   padding: 90px 0px 130px;
 }
@@ -52,8 +28,23 @@
   text-transform: uppercase;
 }
 
+
 /* NavBar custom 
 ---------------------------------- */
+
+#navigation {
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  z-index: 1031;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#uppercase {
+  text-transform: uppercase;
+}
 
 .navbar-ex1-collapse {
   float: right;
@@ -64,9 +55,34 @@
   border-color: #e7e7e7;
 }
 
-.one-page-header {
+.one-page-header_testok {
   border-bottom: none;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(140, 187, 234 .4);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+22,fccd4d+40,f8b500+51,fbdf93+75 */
+  background: #fceabb;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #fceabb 22%, #fccd4d 40%, #f8b500 51%, #fbdf93 75%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #fceabb 22%, #fccd4d 40%, #f8b500 51%, #fbdf93 75%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #fceabb 22%, #fccd4d 40%, #f8b500 51%, #fbdf93 75%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.one-page-header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5f2c6+25,fccd4d+40,f8b500+51,fbdf93+68 */
+  background: #e5f2c6;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #e5f2c6 25%, #fccd4d 40%, #f8b500 51%, #fbdf93 68%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #e5f2c6 25%, #fccd4d 40%, #f8b500 51%, #fbdf93 68%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #e5f2c6 25%, #fccd4d 40%, #f8b500 51%, #fbdf93 68%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e5f2c6', endColorstr='#fbdf93', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
 
 a,
@@ -95,11 +111,66 @@ span {
 }
 
 
+/* css cover background image
+---------------------------------- */
+
+.cover_bg1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../img/img1.jpg) no-repeat center center fixed;
+  opacity: 0.3;
+}
+
+.cover_bg2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../img/img2.jpg) no-repeat center center fixed;
+  opacity: 0.3;
+}
+
+.cover_bg3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../img/par3.jpg) no-repeat center center fixed;
+  opacity: 0.3;
+}
+
+.cover_bg4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../img/par4.jpg) no-repeat center center fixed;
+  opacity: 0.3;
+}
+
+
+/* Parallax custom 
+---------------------------------- */
+
+[class*="cover_"] {
+  height: 100vh;
+  text-indent: -9999px;
+  /* fix background */
+  background-attachment: fixed;
+  /* center it */
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  /* just make it look a bit better ;) */
+  &:nth-child(2n) {
+    box-shadow: inset 0 0 1em #111;
+  }
+}
+
+
 /* Footer section
 ---------------------------------- */
 
 #footer {
-  background-color: #191919;
+  background-color: #999999;
   padding: 20px 0px;
 }
 
@@ -162,12 +233,12 @@ span {
 
 .overlay-container {
   position: relative;
-  display: block;
+  display: flex;
   overflow: hidden;
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: -1px;
   left: 0;
@@ -235,12 +306,16 @@ span {
   transform: skewY(3deg);
   z-index: -1;
 }
+
+
 /* Misc
 ----------------------------------------------------------------------------- */
+
 .no-view {
   opacity: 0;
   filter: alpha(opacity=0);
 }
+
 .object-visible,
 .touch .no-view {
   opacity: 1 !important;
@@ -250,20 +325,27 @@ span {
 .space {
   padding: 20px 0;
 }
+
 .pr-10 {
   padding-right: 10px;
 }
+
 .pl-10 {
   padding-left: 10px;
 }
+
 .pclear {
   padding-bottom: 0;
 }
-.secPadding{
-padding: 70px 0;
+
+.secPadding {
+  padding: 70px 0;
 }
+
+
 /* Sections
 ----------------------------------------------------------------------------- */
+
 .banner-caption h1,
 .banner-caption h2,
 .banner-caption h3,
@@ -272,61 +354,76 @@ padding: 70px 0;
 .banner-caption h6 {
   color: #ffffff;
 }
+
 .banner-caption h1 {
   font-size: 45px;
 }
-.footer h1{
-color:#fff;
+
+.footer h1 {
+  color: #fff;
 }
+
 .footer.section {
-background: #222222;
-color: #949494;
+  background: #222222;
+  color: #949494;
 }
+
 .subfooter p {
   margin-bottom: 0;
   color: #fff;
 }
-.hero-caption{
-text-align:center;
-padding:40px 0;
-background-color: #FFFFFF;}
-.hero-caption h2{
-text-align:center;
-}
-.hero-caption p{
 
-color: #000;
+.hero-caption {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #FFFFFF;
 }
- .fa-angle-down {
-    position: absolute;
-    left: 50%;
-    color: #fff;
-    display: inline-block;
-    width: 24px;
-    margin-left: -12px;
-    font-size: 36px;
-    line-height: 24px;
-    z-index: 999;
-    -webkit-animation: bounce 3000ms infinite;
-    animation: bounce 3000ms infinite;
-    margin-top: 38px;
-    font-weight: bolder;
+
+.hero-caption h2 {
+  text-align: center;
 }
+
+.hero-caption p {
+  color: #000;
+}
+
+.fa-angle-down {
+  position: absolute;
+  left: 50%;
+  color: #fff;
+  display: inline-block;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 36px;
+  line-height: 24px;
+  z-index: 999;
+  -webkit-animation: bounce 3000ms infinite;
+  animation: bounce 3000ms infinite;
+  margin-top: 38px;
+  font-weight: bolder;
+}
+
+.fa {
+  font-size: 24px;
+}
+
 .panel-default {
-    border-color: #ddd;
+  border-color: #ddd;
 }
 
 .panel {
-    margin-bottom: 20px;
-    background-color: rgb(227, 227, 227);
-    border: transparent;
-    border-radius: 0;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  margin-bottom: 20px;
+  background-color: rgb(227, 227, 227);
+  border: transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+
 .panel-body {
-    padding: 15px;
+  padding: 15px;
 }
+
 .box-services {
   padding: 40px 20px 20px;
   border-bottom: 1px solid #d4d4d4;
@@ -335,11 +432,13 @@ color: #000;
   font-size: 16px;
   z-index: 1;
 }
+
 .box-services .icon {
   text-align: center;
   font-size: 25px;
   color: #F13647;
 }
+
 .box-services p {
   color: #000000;
   text-align: center;
@@ -347,27 +446,30 @@ color: #000;
 }
 
 .heading:after {
-    content: " ";
-    display: block;
-    width: 100px;
-    height: 2px;
-    margin: 20px auto 20px;
-    /* background: #E45454; */
-    border: dashed 1px #E1E1E1;
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 20px auto 20px;
+  /* background: #E45454; */
+  border: dashed 1px #E1E1E1;
 }
+
 .list-group-item {
-    position: relative;
-    display: block;
-    padding: 15px 15px;
-    margin-bottom: -1px;
-    background-color: transparent;
-    color: rgb(76, 76, 76);
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  color: rgb(76, 76, 76);
 }
+
 
 /* input map search
 ----------------------------------------------------------------------------- */
+
 .input-style-custom {
-  background:rgba(236, 189, 189, 0.29);
+  background: rgba(236, 189, 189, 0.29);
   font-size: 21px;
   position: relative;
   padding: 4px;
@@ -376,11 +478,19 @@ color: #000;
   width: 100%;
 }
 
+
 /* logo
 ----------------------------------------------------------------------------- */
-#logo-header{
-    position: absolute;
-    width: 5%;
-    margin-top: 1%;
-    margin-left: 4%;
+
+#logo-home {
+  position: absolute;
+  width: 5%;
+  margin-top: 1%;
+  margin-left: 4%;
+}
+
+#logo-nav {
+  width: 5%;
+  margin-top: 1%;
+  margin-left: 4%;
 }

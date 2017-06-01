@@ -1,11 +1,123 @@
-<div id="footer">
-<div class="container">
-  <div class="row">
-  <div class="col-sm-7 footer-copyrigth">
-        <div class="animate-box fadeInUp animated">
-      <p><span>Created with <i class="icon-heart3"></i> by Toni</span></p>
-      <p>© 2017 Toni</p>
-  </div>
+<style type="text/css">
+/**
+ * Footer
+ */
+footer {
+  border-top: 2px solid #343434;
+  background: #262626 url(../img/imagen-contacto.png) center center no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+footer > div.logos {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+footer > div.logos > div {
+  z-index: 1;
+  position: relative;
+}
+footer > div.logos::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(38, 38, 38, 0.9);
+}
+footer div.info {
+  position: relative;
+  text-align: center;
+}
+footer div.info:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(38, 38, 38, 0.8);
+}
+footer div.info > * {
+  position: relative;
+  z-index: 1;
+}
+footer div.info .container,
+footer div.info #cookie-advice .wrapper {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+footer ul.social {
+  margin: 0 0 25px;
+  font-size: 0;
+}
+footer ul.social > li {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+footer ul.social a {
+  display: inline-block;
+  font-size: 50px;
+  color: #ccc;
+}
+footer ul.info-links {
+  text-transform: uppercase;
+}
+footer ul.info-links > li {
+  margin: 5px 0;
+  padding: 0;
+}
+footer ul.info-links a:not(:hover) {
+  color: #ccc;
+}
+footer .met-logo {
+  position: relative;
+}
+footer .met-logo,
+footer .cirici-logo {
+  text-align: center;
+  display: block;
+}
+@media (min-width: 768px) {
+  footer ul > li {
+    display: inline-block;
+  }
+  footer .met-logo {
+    display: inline-block;
+  }
+  footer .cirici-logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 15px;
+  }
+  footer ul.social > li {
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+  }
+  footer ul.info-links > li:before {
+    content: '';
+    display: inline-block;
+  }
+  footer ul.info-links > li + li:before {
+    content: '/';
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+} 
+
+
+</style>
+
+<!-- <div id="footer navbar-fixed-bottom">
+  <div class="container">
+    <div class="row">
       <div class="col-sm-5 footer-social">
         <div class="pull-right hidden-xs hidden-sm">
           <a href="#"><i class="fa fa-facebook"></i></a>
@@ -15,7 +127,58 @@
           <a href="#"><i class="fa fa-pinterest"></i></a>
         </div>
       </div>
+      <div class="col-sm-7 footer-copyrigth">
+      <p>© 2017 Toni</p>
+      </div>
     </div>
   </div>
-</div>
-</div>
+</div> -->
+
+<footer id="footer">
+  <div class="info">
+    <div class="container">
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/clubmetropolitan" _full="1" class="micon micon-facebook" target="_blank"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/metropolitangym" _full="1" class="micon micon-twitter" target="_blank"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/user/clubmetropolitan" _full="1" class="micon micon-youtube" target="_blank"></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/metropolitangym" _full="1" class="micon micon-instagram" target="_blank"></a>
+        </li>
+        <li>
+          <a class="micon micon-share addthis_button_compact" href="#">
+            <span alt="Share"> </span>
+          </a>
+        </li>
+      </ul>
+      <nav>
+        <ul class="info-links">
+          <li>
+            <a href="/contacto">Contacto</a> </li>
+          <li>
+            <a href="/metropolitan-solidario">Metropolitan Solidario</a> </li>
+          <li>
+            <a href="/pagina/visite-metropolitan">Visite Metropolitan</a> </li>
+          <li>
+            <a href="/quieres-trabajar-con-nosotros">¿Quieres trabajar con nosotros?</a> </li>
+          <li>
+            <a href="/informacion-legal">Información legal</a> </li>
+          <li>
+            <a href="/quienes-somos">Quiénes somos</a> </li>
+          <li>
+            <a href="/app-movil">App móvil</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="logos">
+    <div class="container">
+      <a href="/" class="met-logo">Metropolitan</a>
+      <a href="https://www.cirici.com" class="cirici-logo" target="_blank">by <span class="">cirici</span></a> </div>
+  </div>
+</footer>
