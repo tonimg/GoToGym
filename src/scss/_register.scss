@@ -1,0 +1,32 @@
+.pb-modalreglog.pb-modalreglog {
+
+	&-container {
+	  margin-top: 100px;
+	}
+
+	&-legend {
+	  text-align: center;
+	}
+
+	&-input-group {
+	  margin: auto;
+	}
+
+	&-submit {
+	  margin-left: 5px;
+	}
+
+	&-form-reg {
+	  text-align: center;
+	}
+
+	&-footer p {
+	  text-align: center;
+	  margin-top: 20px;
+	}
+
+}
+
+#pb-modalreglog-progressbar {
+  border-radius: 2px;
+}
