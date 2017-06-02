@@ -60,15 +60,6 @@ span {
 	}
 }
 
-/* Row responsive
----------------------------------- */
-
-@media (min-width: 1200px){
-	.row {
-			margin-left: -30px;
-	}
-}
-
 /* css cover background image
 ---------------------------------- */
 
@@ -289,6 +280,7 @@ footer ul.social a {
     height: 79px;
     margin-top: 6px;
     margin-left: 20px;
+    background: rgba(255, 255, 255, 0.7);
 	}
 
 	/* Carousel
@@ -310,7 +302,7 @@ footer ul.social a {
 	/* @begin Navbar Adjustments w/ New Logo*/
 		#header nav, #header nav #uppercase{
 			height: 75px;
-			background: white;
+			background: rgba(255, 255, 255, 0.7);
 		}
 
 		#header nav #uppercase, #header nav #uppercase li, #header nav #uppercase li a {
@@ -340,12 +332,11 @@ footer ul.social a {
 
 		}
 		#main-cover {
-			border: 2px solid red;
 			text-align: center;
 
 			.container-main-cover {
 				 background: rgba(255, 255, 255, 0.5);
-				 margin-top: 25px;
+		     height: 657px;
 			}
 			.title, .sub-title, .top-title {
 				padding: 30px;
