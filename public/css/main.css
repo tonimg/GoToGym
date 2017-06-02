@@ -55,29 +55,13 @@
   border-color: #e7e7e7;
 }
 
-.one-page-header,
-footer {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5f2c6+25,fccd4d+40,f8b500+51,fbdf93+68 */
-  background: #e5f2c6;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #e5f2c6 25%, #fccd4d 40%, #f8b500 51%, #fbdf93 68%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #e5f2c6 25%, #fccd4d 40%, #f8b500 51%, #fbdf93 68%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #e5f2c6 25%, #fccd4d 40%, #f8b500 51%, #fbdf93 68%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e5f2c6', endColorstr='#fbdf93', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-}
-
 a,
 span {
-  color: antiquewhite;
+  color: black;
   position: relative;
   float: left;
   width: 100%;
 }
-
 
 /* Header responsive
 ---------------------------------- */
@@ -91,10 +75,14 @@ span {
   }
 }
 
-#contact {
-  background-color: #f8f8f8;
-}
+/* Row responsive
+---------------------------------- */
 
+@media (min-width: 1200px)
+responsive.css:112
+.row {
+    margin-left: -30px;
+}
 
 /* css cover background image
 ---------------------------------- */
@@ -112,7 +100,7 @@ span {
   height: 100%;
   width: 100%;
   background: url(../img/img2.jpg) no-repeat center center fixed;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .cover_bg3 {
@@ -137,6 +125,7 @@ span {
 
 [class*="cover_"] {
   height: 100vh;
+  z-index: -1;
   text-indent: -9999px;
   /* fix background */
   background-attachment: fixed;
@@ -149,7 +138,11 @@ span {
     box-shadow: inset 0 0 1em #111;
   }
 }
-
+  /* contact
+---------------------------------- */
+#contact{
+  background: none;
+}
 
 /* Footer section
 ---------------------------------- */
@@ -177,6 +170,12 @@ footer ul.social a {
   footer ul.info-links {
     text-transform: uppercase;
   }
+}
+
+#footer{
+  margin-top: 15px;
+}
+
   /* Modals gallery
 ---------------------------------- */
   .modal-content {
@@ -273,32 +272,7 @@ footer ul.social a {
     transform: skewY(3deg);
     z-index: -1;
   }
-  /* Misc
------------------------------------------------------------------------------ */
-  .no-view {
-    opacity: 0;
-    filter: alpha(opacity=0);
-  }
-  .object-visible,
-  .touch .no-view {
-    opacity: 1 !important;
-    filter: alpha(opacity=100) !important;
-  }
-  .space {
-    padding: 20px 0;
-  }
-  .pr-10 {
-    padding-right: 10px;
-  }
-  .pl-10 {
-    padding-left: 10px;
-  }
-  .pclear {
-    padding-bottom: 0;
-  }
-  .secPadding {
-    padding: 70px 0;
-  }
+
   /* Sections
 ----------------------------------------------------------------------------- */
   .banner-caption h1,
@@ -435,4 +409,20 @@ footer ul.social a {
 .thumbnail>img{
     width: 80%;
     height: 100%;
+}
+
+  /* Carousel
+----------------------------------------------------------------------------- */
+.list-banners {
+    display: inline-block;
+    margin: 10px 0 0;
+    width: 100%;
+    -moz-box-shadow: 1px 1px 3px 0 rgba(180, 180, 180, 0.2);
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(180, 180, 180, 0.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#eeeeee)";
+    box-shadow: 1px 1px 3px 0 rgba(180, 180, 180, 0.2);
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#eeeeee);
+}
+.bot-90 {
+    margin-bottom: 90px;
 }
