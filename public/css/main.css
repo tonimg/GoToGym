@@ -310,6 +310,12 @@ footer ul.social a {
 /* @end Main Cover Adjustments */
 /* list-banners
 ----------------------------------------------------------------------------- */
+.carousel {
+  width: 250px;
+  height: 202px;
+  margin-top: 15px;
+  margin-left: 224px; }
+
 .map {
   margin-top: 150px; }
 
@@ -339,3 +345,11 @@ footer ul.social a {
 ---------------------------------- */
 i, .fa {
   font-size: 25px; }
+
+/* Services
+----------------------------------------------------------------------------- */
+#services {
+  padding-top: 30px; }
+
+.club_logos {
+  margin-bottom: 20px; }
