@@ -1,8 +1,12 @@
-#portfolio-margin{
-    margin-top: 30px;
+/* Gallery
+----------------------------------------------------------------------------- */
+#gallery-margin{
+  padding-top: 0px;
+  margin-top:0px;
 }
 #portfolio {
-  padding: 140px 0;
+  padding: 80px 0;
+  /* background: #2f2f2f; */
 }
 #portfolio .portfolio-filter {
   list-style: none;
@@ -26,6 +30,9 @@
   background: #4E4E4E;
   color: #FFFFFF;
 } 
+#portfolio .portfolio-items {
+  margin-top: 15px;
+}
 #portfolio .portfolio-item {
   width: 24.9%;
   float: left;
@@ -90,4 +97,30 @@ margin: 15px auto;
   opacity: 1;
   border: 20px solid rgba(194, 24, 91, 0.56);
   transform: scale(.9);
+}
+
+@media only screen and (min-width: 768px) {
+#portfolio .portfolio-filter {
+list-style: none;
+padding: 0;
+margin: 0 0 12px;
+}
+#portfolio .portfolio-filter > li a {
+display: block;
+padding: 7px 15px;
+margin: 5px 2px;
+}
+  #portfolio .portfolio-item {
+  width: 25%;
+  padding: 8px;
+  }
+  #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+width: 28px;
+height: 24px;
+line-height: 24px; 
+margin: 9px auto;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+padding: 7px 0 0;
+}
 }
