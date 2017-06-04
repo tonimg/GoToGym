@@ -213,16 +213,6 @@ footer ul.social a {
   transform: skewY(3deg);
   z-index: -1; }
 
-/* Services
------------------------------------------------------------------------------ */
-.services {
-  display: flex;
-  flex-wrap: wrap; }
-
-.services, ul, li {
-  justify-content: center;
-  margin: 10px 40px 10px 10px; }
-
 /* input map search
 }
 ----------------------------------------------------------------------------- */
@@ -238,23 +228,14 @@ footer ul.social a {
 /* logo
 ----------------------------------------------------------------------------- */
 #logo-nav {
-  position: relative;
+  position: absolute;
   width: 145px;
   height: 50px;
   margin-top: 6px;
   margin-left: 20px;
   background: rgba(255, 255, 255, 0.7); }
 
-/* Carousel
------------------------------------------------------------------------------ */
-.carousel-inner > .item > a > img,
-.carousel-inner > .item > img,
-.img-responsive, .thumbnail a > img,
-.thumbnail > img {
-  width: 80%;
-  height: 100%; }
-
-/* Custom Styles Review Design */
+/* Custom Styles Design */
 .clearfix {
   clear: both; }
 
@@ -307,15 +288,22 @@ footer ul.social a {
   background-size: cover;
   opacity: 0.8; }
 
-/* @end Main Cover Adjustments */
-/* list-banners
------------------------------------------------------------------------------ */
-.carousel {
-  width: 250px;
-  height: 202px;
-  margin-top: 15px;
-  margin-left: 224px; }
+.fa-angle-down {
+  position: absolute;
+  left: 50%;
+  color: #fff;
+  display: inline-block;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 36px;
+  line-height: 24px;
+  z-index: 999;
+  -webkit-animation: bounce 3000ms infinite;
+  animation: bounce 3000ms infinite;
+  margin-top: 38px;
+  font-weight: bolder; }
 
+/* @end Main Cover Adjustments */
 .map {
   margin-top: 150px; }
 
@@ -343,13 +331,126 @@ footer ul.social a {
 
 /* About
 ---------------------------------- */
-i, .fa {
-  font-size: 25px; }
+i,
+.fa {
+  font-size: 20px; }
+
+#about {
+  margin-top: 60px;
+  padding-bottom: 115px; }
+
+#img_about {
+  margin-top: -5px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  margin-left: 65px;
+  height: 350px;
+  display: block;
+  position: relative; }
 
 /* Services
 ----------------------------------------------------------------------------- */
 #services {
-  padding-top: 30px; }
+  padding-top: 18px; }
 
 .club_logos {
   margin-bottom: 20px; }
+
+#portfolio-margin {
+  margin-top: 30px; }
+
+#portfolio {
+  padding: 140px 0; }
+
+#portfolio .portfolio-filter {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  display: inline-block; }
+
+#portfolio .portfolio-filter > li {
+  float: left;
+  display: block; }
+
+#portfolio .portfolio-filter > li a {
+  display: block;
+  padding: 7px 15px;
+  margin: 0px 2px;
+  color: #141414;
+  position: relative; }
+
+#portfolio .portfolio-filter > li a:hover,
+#portfolio .portfolio-filter > li a.active {
+  background: #4E4E4E;
+  color: #FFFFFF; }
+
+#portfolio .portfolio-item {
+  width: 24.9%;
+  float: left;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#portfolio .portfolio-item .portfolio-item-inner {
+  position: relative;
+  text-align: center;
+  background: #343434;
+  color: #282828;
+  padding: 0 0 4px 0;
+  font-weight: normal; }
+
+#portfolio .portfolio-item .portfolio-item-inner h4 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #62BDF0; }
+
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+  opacity: 0;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 18px 0 0;
+  background: rgba(0, 0, 0, 0.62);
+  color: #ffc4db;
+  height: 100%;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  font-weight: bold; }
+
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  color: #fff; }
+
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 1px #fff;
+  display: block;
+  -webkit-box-shadow: 0 0 0 1px #fff;
+  text-align: center;
+  margin: 15px auto;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 50%; }
+
+#portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  border: 20px solid rgba(194, 24, 91, 0.56);
+  transform: scale(0.9); }
+
+/* Contact
+---------------------------------- */
+#contact {
+  margin-top: 20px;
+  background: none; }

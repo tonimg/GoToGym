@@ -1,5 +1,22 @@
 /* About
 ---------------------------------- */
-i, .fa{
-  font-size: 25px;
+
+i,
+.fa {
+  font-size: 20px;
+}
+
+#about {
+    margin-top: 60px;
+    padding-bottom: 115px;
+}
+
+#img_about{
+    margin-top: -5px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    margin-left: 65px;
+    height: 350px;
+    display: block;
+    position: relative;
 }

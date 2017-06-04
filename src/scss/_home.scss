@@ -249,17 +249,6 @@ footer ul.social a {
 		z-index: -1;
 	}
 
-	/* Services
------------------------------------------------------------------------------ */
-	.services{
-		display:flex;
-		flex-wrap: wrap;
-	}
-	.services, ul, li{
-		justify-content: center;
-    margin:10px 40px 10px 10px ;
-	}
-
 	/* input map search
 }
 ----------------------------------------------------------------------------- */
@@ -275,7 +264,7 @@ footer ul.social a {
 	/* logo
 ----------------------------------------------------------------------------- */
 	#logo-nav {
-    position: relative;
+    position: absolute;
     width: 145px;
     height: 50px	;
     margin-top: 6px;
@@ -283,17 +272,7 @@ footer ul.social a {
     background: rgba(255, 255, 255, 0.7);
 	}
 
-	/* Carousel
------------------------------------------------------------------------------ */
-.carousel-inner>.item>a>img,
-.carousel-inner>.item>img,
-.img-responsive, .thumbnail a>img,
-.thumbnail>img{
-		width: 80%;
-		height: 100%;
-}
-
-/* Custom Styles Review Design */
+/* Custom Styles Design */
 
 	.clearfix {
 		clear: both;
@@ -365,15 +344,22 @@ footer ul.social a {
 			opacity: 0.8;
 		}
 
+.fa-angle-down {
+    position: absolute;
+    left: 50%;
+    color: #fff;
+    display: inline-block;
+    width: 24px;
+    margin-left: -12px;
+    font-size: 36px;
+    line-height: 24px;
+    z-index: 999;
+    -webkit-animation: bounce 3000ms infinite;
+    animation: bounce 3000ms infinite;
+    margin-top: 38px;
+    font-weight: bolder;
+}
 
 	/* @end Main Cover Adjustments */
 
-		/* list-banners
------------------------------------------------------------------------------ */
-.carousel{
-    width: 250px;
-    height: 202px;
-    margin-top: 15px;
-    margin-left: 224px;
-}
 
