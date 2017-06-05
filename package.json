@@ -14,8 +14,8 @@
     "build:scss:watch": "node-sass src/scss/main.scss public/css/main.css --watch",
     "prestart": "npm install",
     "postinstall": "bower install",
-    "start": "node app",
-    "dev": "supervisor app"
+    "start": "node server/app",
+    "dev": "supervisor server/app"
   },
   "dependencies": {
     "bower": "^1.8.0",
