@@ -13,35 +13,33 @@
 /* NavBar custom
 ---------------------------------- */
 
-#navigation {
-	position: fixed;
-	width: 100%;
-	height: 75px;
-	z-index: 1031;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-}
+// #navigation {
+// 	position: fixed;
+// 	width: 100%;
+// 	height: 75px;
+// 	z-index: 1031;
+// 	-webkit-transition: all 0.5s;
+// 	-moz-transition: all 0.5s;
+// 	transition: all 0.5s;
+// }
 
-#uppercase {
-	text-transform: uppercase;
-}
 
-.navbar-ex1-collapse {
-	float: right;
-}
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-	border-color: #e7e7e7;
-}
+// .navbar-ex1-collapse {
+// 	float: right;
+// }
 
-a,
-span {
-	color: black;
-	position: relative;
-	width: 100%;
-}
+// .navbar-default .navbar-collapse,
+// .navbar-default .navbar-form {
+// 	border-color: #e7e7e7;
+// }
+
+// a,
+// span {
+// 	color: black;
+// 	position: relative;
+// 	width: 100%;
+// }
 
 /* Header responsive
 ---------------------------------- */
@@ -173,14 +171,14 @@ footer ul.social a {
 
 	/* logo
 ----------------------------------------------------------------------------- */
-	#logo-nav {
-    position: absolute;
-    width: 145px;
-    height: 50px	;
-    margin-top: 6px;
-    margin-left: 20px;
-    background: rgba(255, 255, 255, 0.7);
-	}
+	// #logo-nav {
+ //    position: absolute;
+ //    width: 145px;
+ //    height: 50px	;
+ //    margin-top: 6px;
+ //    margin-left: 20px;
+ //    background: rgba(255, 255, 255, 0.7);
+	// }
 
 /* Custom Styles Design */
 
@@ -189,39 +187,42 @@ footer ul.social a {
 	}
 
 	/* @begin Navbar Adjustments w/ New Logo*/
-		#header nav, #header nav #uppercase{
-			height: 75px;
-			background: rgba(255, 255, 255, 0.7);
-		}
+		// #header nav, #header nav #uppercase{
+		// 	height: 75px;
+		// 	background: rgba(255, 255, 255, 0.7);
+		// }
 
-		#header nav #uppercase, #header nav #uppercase li, #header nav #uppercase li a {
-			display: flex;
-		}
+		// #header nav #uppercase, #header nav #uppercase li, #header nav #uppercase li a {
+		// 	display: flex;
+		// }
 
-		#header nav #uppercase {
-			margin-right: 20px;
-		}
+		// #header nav #uppercase {
+		// 	margin-right: 20px;
+		// }
 
-		#header nav #uppercase li a {
-			justify-content: center;
-			align-items: center;
-			padding: 0 20px;
-		}
+		// #header nav #uppercase li a {
+		// 	justify-content: center;
+		// 	align-items: center;
+		// 	padding: 0 20px;
+		// }
 
-		#header nav #uppercase li a:hover {
-			background: black;
-			span {
-				color: white;
-			}
-		}
+		// #header nav #uppercase li a:hover {
+		// 	background: black;
+		// 	span {
+		// 		color: white;
+		// 	}
+		// }
 	/* @end Navbar Adjustments w/ New Logo*/
 
 	/* @begin Main Cover Adjustments */
-		.prettify-font {
+		// .prettify-font {
 
+		// }
+		#home{
+			margin-top: 16px;
 		}
 		#main-cover {
-			text-align: center;
+    text-align: center;
 
 			.container-main-cover {
 				 background: rgba(255, 255, 255, 0.5);

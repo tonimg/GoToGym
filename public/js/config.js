@@ -7,18 +7,18 @@ angular.module('gymApp')
         templateUrl: '../templates/home.html',
         controller: 'homeController'
       })
-      .when('/login', {
-        templateUrl: '../templates/login.html'
-      })
-      .when('/register', {
-        templateUrl: '../templates/register.html'
-      })
-      .when('/contact', {
-        templateUrl: '../templates/contact.html'
-      })
-      .when('/about', {
-        templateUrl: '../templates/about.html'
-      })
+      // .when('/login', {
+      //   templateUrl: '../templates/login.html'
+      // })
+      // .when('/register', {
+      //   templateUrl: '../templates/register.html'
+      // })
+      // .when('/contact', {
+      //   templateUrl: '../templates/contact.html'
+      // })
+      // .when('/about', {
+      //   templateUrl: '../templates/about.html'
+      // })
       .when('/locations', {
         templateUrl: '../templates/locations.html'
       })

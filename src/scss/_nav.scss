@@ -1,0 +1,36 @@
+/* NavBar custom
+---------------------------------- */
+#logo-nav {
+    position: absolute;
+    width: 172px;
+    height: 58px;
+    margin-top: 0;
+    margin-left: 0;
+    background: transparent;
+    bottom: 0px;
+    top: 4px;
+}
+
+.navbar-default {
+    border-bottom: 2px solid #e7e7e7;
+    background: rgba(255, 255, 255, 0.7);
+    padding-bottom: 15px;
+    display: flex;
+}
+nav li a {
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+ }
+
+#uppercase {
+  text-transform: uppercase;
+}
+
+#header nav #uppercase li:hover {
+  background: black; }
+  #header nav #uppercase li a:hover {
+    color: white; }
+
+#header nav #uppercase, #header nav #uppercase li, #header nav #uppercase li a {
+  display: flex; }
