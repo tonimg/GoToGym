@@ -7,7 +7,8 @@ const GymSchema = new mongoose.Schema({
     required: true
   },
   description: String,
-  image: String
+  image: String,
+  price: Number
 }, { collection })
 
 module.exports = mongoose.model('Gym', GymSchema)
