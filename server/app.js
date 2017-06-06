@@ -1,12 +1,14 @@
 const express = require('express')
 const path = require('path')
-
-require('dotenv').load()
+const bodyParser = require('body-parser')
 
 const app = express()
-const PORT = process.env.PORT || 3000
 
+/* bodyParser */
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
+/* static folder */
 app.use(express.static(path.join(__dirname, '../public')))
 
-app.listen(PORT)
-console.log(`Listening on PORT ${PORT}`)
+module.exports = app
