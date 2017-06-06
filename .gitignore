@@ -3,3 +3,4 @@ public/bower_components
 npm-debug.log
 .env
 curl_commands.md
+server/parser
