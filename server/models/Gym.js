@@ -6,6 +6,7 @@ const GymSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  address: String,
   description: String,
   image: String,
   price: Number
