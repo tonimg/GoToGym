@@ -6,10 +6,13 @@ const GymSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  clases: String,
+  latitude: Number,
+  longitude: Number,
+  postalCode: Number,
   address: String,
   description: String,
-  image: String,
-  price: Number
+  image: String
 }, { collection })
 
 module.exports = mongoose.model('Gym', GymSchema)
