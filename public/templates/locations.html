@@ -1,41 +1,25 @@
 <!-- Theme from Juanma Restaurants -->
 <div id="results-container">
   <div id="results">
-    <div ng-include src="'templates/includes/filters.html'"></div>
-    <header>
-    <h1> {{ 3 + 3 }} </h1>
-      <h3>{{ totalResults }} Gimnasios localizados
-        <span ng-show="filters.borough">in borough <strong>{{filters.borough}}</strong> </span>
-        <span ng-show="filters.cuisine">with cuisine <strong>{{filters.cuisine}}</strong> </span>
-      <h5>Monstrando página {{ currentPage }} de {{ totalPages }}</h5>
-<!--       <ul>        
-        <li>
-          <img src="../img/Captura.PNG" style height= "544px">
-        </li>
-      </ul> -->
-
-    </header>
-
-    <!-- <ul uib-pagination total-items="totalResults" ng-model="currentPage" max-size="maxSize" class="pagination-sm" ng-change="setPage(currentPage)" boundary-link-numbers="true" rotate="false"></ul>
- -->
-
-
-    <ul class="list-unstyled search-results">
-      <li ng-repeat="restaurant in restaurants">
-        <h2><a href="#/details/{{restaurant._id}}">{{ restaurant.name }}</a> </h2>
-        <h5>{{ restaurant.borough }} | {{ restaurant.cuisine }}</h5>
-        <p>{{ restaurant.address.street }}, {{ restaurant.address.building }} | {{ restaurant.address.zipcode }} <button class="glyphicon glyphicon-map-marker" ng-click="setCenter(restaurant.address.coord)"></button></p>
-
+  <br>
+  <br>
+  <hr>
+    <button ng-click="getLocations()"> ljabyukfcfxdh</button>
+    <ul class="list-unstyled lest-gyms">
+      <li ng-repeat="gym in gyms">
+        <div class="thumbnail">
+          <div class="container-image">
+            <img class="img-bg" ng-style="{'background-image':'url({{ gym.image }})'}" ng-alt="{{ gym.name }}">
+          </div>
+          <div class="caption">
+            <h4> {{ gym.name }} </h4>
+          </div>
+          </div>
       </li>
     </ul>
-
     <hr>
-     <ul uib-pagination total-items="totalResults" ng-model="currentPage" max-size="maxSize" class="pagination-sm" ng-change="setPage(currentPage)" boundary-link-numbers="true" rotate="false"></ul>
-
+    </div>
+    <div id="map">
+      <ng-map id="main-map" center="41.381789, 2.172363" zoom="15"></ng-map>
+    </div>
   </div>
-
-  <div id="map" >
-    <ng-map id="main-map" center="41.381789, 2.172363" zoom="15"></ng-map>
-  </div>
-
-</div>

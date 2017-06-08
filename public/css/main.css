@@ -98,6 +98,20 @@ footer ul.social a {
   border-bottom: solid 3px #f5f5f5;
   width: 100%; }
 
+input[type="text"] {
+  width: 200px;
+  height: 20px;
+  padding-right: 50px; }
+
+input[type="submit"] {
+  margin-left: -50px;
+  height: 25px;
+  width: 50px;
+  background: blue;
+  color: white;
+  border: 0;
+  -webkit-appearance: none; }
+
 /* logo
 ----------------------------------------------------------------------------- */
 /* Custom Styles Design */
@@ -139,7 +153,7 @@ footer ul.social a {
 /* @end Main Cover Adjustments */
 /* Location
 ----------------------------------------------------------------------------- */
-.map > * {
+#map > * {
   margin-top: 60px;
   margin: 0px;
   position: relative;
@@ -188,11 +202,6 @@ body > header {
 #map {
   width: 60%;
   margin-top: 18px; }
-
-#map > * {
-  position: fixed;
-  height: 90vh;
-  width: 50%; }
 
 .grades h4 {
   margin-bottom: 20px; }

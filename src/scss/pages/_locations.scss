@@ -1,6 +1,6 @@
 /* Location
 ----------------------------------------------------------------------------- */
-.map > * {
+#map > * {
     margin-top: 60px;
     margin: 0px;
     position: relative;
@@ -66,11 +66,7 @@ body > header {
     width: 60%;
     margin-top: 18px;
 }
-#map > * {
-  position: fixed;
-  height:90vh;
-  width: 50%;
-}
+
 
 .grades h4 {
   margin-bottom: 20px;

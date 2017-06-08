@@ -1,6 +1,7 @@
-function DataService ($http) {
-  function getAllGyms () {
-    return $http.get('/api/gyms')
+angular.module('gymApp')
+.factory('ApiService', function ($http) {
+  function getAllGyms (city) {
+    return $http.get('/api/gyms/')
       .then(response => response.data)
   }
 
@@ -15,6 +16,4 @@ function DataService ($http) {
   }
 
   return { getAllGyms, addGym, removeGym }
-}
-
-module.exports = DataService
+})
