@@ -12,9 +12,10 @@
                 <h3 class="title">Paga por lo que entrenas. Localiza tu centro más próximo y elige tu momento</h3>
                 <form role="form">
                     <div class="form-group">
-                        <input type="text" class="form-control imput-group input-lg" placeholder="busca dónde entrenar por calle, nombre club, provincia..." autofocus="autofocus">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <input ng-model="queryLocation"  type="text" class="form-control input-lg" placeholder="busca dónde entrenar por calle, nombre club, provincia..." autofocus="autofocus">
                         <span class="input-group-btn">
-                       <a href="#!/locations"><button class="btn btn-default" type="button">Encuéntralo!</button></a>
+                       <a href="#!/locations"><button  ng-click="getSearchGyms()" class="btn btn-default" type="submit">Encuéntralo!</button></a>
                     </span>
                         <!-- <a href="https://foursquare.com/explore?mode=url&ne=41.436678%2C2.232714&q=Gym%20%2F%20Fitness%20Center&sw=41.352459%2C2.08869" target="_blank">busqueda</a> -->
                     </div>

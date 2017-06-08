@@ -1,52 +1,18 @@
-<!-- <div ng-include src="'templates/includes/header.html'"></div> -->
-<!-- begin template -->
-<!-- <div class="cover_bg4"></div> -->
-<!-- <div class="container" id="locations">
-  <div class="row">
-    <div class="col-md-6">
-      <h2>Gimnasios localizados</h2>
-      <form role="form">
-        <div class="form-group">
-          <h3>Filtra tu busqueda:</h3>
-          <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="calle, nombre club, provincia..." autofocus="autofocus">
-        </div>
-      </form>
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="">Club Gym Gold</a></div>
-      </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
-      <hr>
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="">Club Gym Gold</a></div>
-      </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
-      <hr>
-    </div>
-    <div class="col-md-6 map" id="locations">
-      <ng-map default-style="true" center="current-location" zoom="15" id="map" geo-fallback-center="41.381789, 2.172363">
-        <marker position="current" centered="true"></marker>
-        <info-window position="current-location">
-          <span>Loation found using HTML5.</span>
-        </info-window>
-      </ng-map>
-    </div>
-  </div>
-</div> -->
-
 <!-- Theme from Juanma Restaurants -->
 <div id="results-container">
   <div id="results">
-    <div ng-include src="'views/includes/filters.html'"></div>
+    <div ng-include src="'templates/includes/filters.html'"></div>
     <header>
+    <h1> {{ 3 + 3 }} </h1>
       <h3>{{ totalResults }} Gimnasios localizados
         <span ng-show="filters.borough">in borough <strong>{{filters.borough}}</strong> </span>
         <span ng-show="filters.cuisine">with cuisine <strong>{{filters.cuisine}}</strong> </span>
       <h5>Monstrando página {{ currentPage }} de {{ totalPages }}</h5>
-      <ul>        
+<!--       <ul>        
         <li>
           <img src="../img/Captura.PNG" style height= "544px">
         </li>
-      </ul>
+      </ul> -->
 
     </header>
 
