@@ -6,11 +6,11 @@ const GymSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  description: String,
   latitude: Number,
   longitude: Number,
   postalCode: Number,
   street: String,
-  description: String,
   image: String
 }, { collection })
 

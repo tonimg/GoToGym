@@ -1,8 +1,10 @@
 node_modules
 public/bower_components
+server/data
 npm-debug.log
 .env
 curl_commands.md
 server/parser
 data.txt
 .estructuredHTML.html
+.notes

@@ -98,20 +98,6 @@ footer ul.social a {
   border-bottom: solid 3px #f5f5f5;
   width: 100%; }
 
-input[type="text"] {
-  width: 200px;
-  height: 20px;
-  padding-right: 50px; }
-
-input[type="submit"] {
-  margin-left: -50px;
-  height: 25px;
-  width: 50px;
-  background: blue;
-  color: white;
-  border: 0;
-  -webkit-appearance: none; }
-
 /* logo
 ----------------------------------------------------------------------------- */
 /* Custom Styles Design */
@@ -213,27 +199,30 @@ input[type="submit"] {
 
 /* About
 ---------------------------------- */
-i,
-.fa {
-  font-size: 20px; }
-
 #about {
   margin-top: 60px;
   padding-bottom: 115px; }
 
 #img_about {
-  margin-top: -5px;
-  margin-bottom: 15px;
-  padding-bottom: 20px;
-  margin-left: 65px;
   height: 350px;
   display: block;
-  position: relative; }
+  position: absolute;
+  height: 600px;
+  top: -140px;
+  left: 100px; }
 
 /* Services
 ----------------------------------------------------------------------------- */
 #services {
+  margin-bottom: 50px;
   padding-top: 18px; }
+  #services h2 {
+    font-size: 50px; }
+  #services h5 {
+    font-family: Arial;
+    font-size: 20px; }
+  #services h2, #services h3, #services h5 {
+    text-align: center; }
 
 .club_logos {
   margin-bottom: 20px; }

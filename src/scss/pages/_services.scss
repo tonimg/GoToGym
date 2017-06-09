@@ -1,7 +1,16 @@
 /* Services
 ----------------------------------------------------------------------------- */
-#services{
+#services {
+	margin-bottom: 50px;
   padding-top: 18px;
+  h2 { font-size: 50px; }
+	h5 {
+		font-family: Arial;
+		font-size: 20px;
+	}
+	h2, h3, h5 {
+		text-align: center;
+	}
 }
 
 .club_logos {

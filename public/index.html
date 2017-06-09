@@ -11,9 +11,12 @@
   <!-- Styles libs -->
   <link rel="stylesheet" type="text/css" href="/css/libs/reset.css">
   <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/font-awesome.min.css">
+<!--   <link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="/css/libs/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/libs/prettyPhoto.css">
+  <link rel="stylesheet" type="text/css" href="/css/libs/prettyPhoto.css"> -->
+
+	<!-- Gallery Modals -->
+  <link rel="stylesheet" type="text/css" href="bower_components/ekko-lightbox/dist/ekko-lightbox.min.css">
 
 	<!-- Fonts -->
 	<link href=“https://fonts.googleapis.com/css?family=Oleo+Script” rel=“stylesheet”>
@@ -48,17 +51,29 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <!-- Scripts libs -->
-  <script type="text/javascript" src="/js/libs/mousescroll.js"></script>
+<!--   <script type="text/javascript" src="/js/libs/mousescroll.js"></script>
   <script type="text/javascript" src="/js/libs/smoothscroll.js"></script>
   <script type="text/javascript" src="/js/libs/jquery.prettyPhoto.js"></script>
   <script type="text/javascript" src="/js/libs/jquery.isotope.min.js"></script>
-  <script type="text/javascript" src="/js/libs/wow.min.js"></script>
+  <script type="text/javascript" src="/js/libs/wow.min.js"></script> -->
+
+	<!-- Gallery Modals -->
+	<script type="text/javascript" src="bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+		    event.preventDefault();
+		    $(this).ekkoLightbox();
+		});
+
+	</script>
 
   <!-- Scripts web -->
   <script type="text/javascript" src="/js/app.js"></script>
   <script type="text/javascript" src="/js/config/routes.js"></script>
-  <script type="text/javascript" src="/js/main.js"></script>
-
+ <!--  <script type="text/javascript" src="/js/main.js"></script>
+ -->
   <!-- Angular dependencies -->
   <script type="text/javascript" src="/js/controllers/homeController.js"></script>
   <script type="text/javascript" src="/js/controllers/locationController.js"></script>

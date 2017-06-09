@@ -1,7 +1,13 @@
 angular.module('gymApp')
 .factory('ApiService', function ($http) {
+
+	function getGymsByLocation (location) {
+    return $http.get('/api/gyms/city/' + location)
+      .then(response => response.data)
+  }
+
   function getAllGyms (city) {
-    return $http.get('/api/gyms/')
+    return $http.get('/api/gyms/city/' + city)
       .then(response => response.data)
   }
 
@@ -15,5 +21,5 @@ angular.module('gymApp')
       .then(response => response.data)
   }
 
-  return { getAllGyms, addGym, removeGym }
+  return { getAllGyms, addGym, removeGym, getGymsByLocation }
 })

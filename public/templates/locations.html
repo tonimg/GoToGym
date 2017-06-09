@@ -3,7 +3,6 @@
   <br>
   <br>
   <hr>
-    <button ng-click="getLocations()"> ljabyukfcfxdh</button>
       <form role="form">
         <div class="form-group">
           <h3>Filtra tus resultados</h3>
@@ -20,7 +19,7 @@
             <h4> {{ gym.name }} </h4>
             <p> {{ gym.description }} </p>
             <p> {{ gym.postalCode }} </p>
-            <p> {{ gym.street }} <button class="glyphicon glyphicon-map-marker" ng-click="setCenter {{gym.latitude}}, {{gym.longitude}}"></button></p>
+            <p> {{ gym.street }} <button class="glyphicon glyphicon-map-marker"></button></p>
           <div class="container-image">
             <img class="img-bg" ng-style="{'background-image':'url({{ gym.image }})'}" ng-alt="{{ gym.name }}">
           </div>

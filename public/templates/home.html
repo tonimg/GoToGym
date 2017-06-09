@@ -11,14 +11,24 @@
                 <h1 class="top-title">GoTo Gym</h1>
                 <h3 class="title">Paga por lo que entrenas. Localiza tu centro más próximo y elige tu momento</h3>
                 <form role="form">
-                    <div class="form-group">
+	                <div class="input-group">
+				      <input ng-model="queryLocation" type="text" class="form-control" placeholder="Search for..." autofocus="autofocus">
+				      <span class="input-group-btn">
+				        <button ng-click="getSearchGyms()" class="btn btn-default" type="button">Buscar!</button>
+				      </span>
+				    </div>
+
+                    <!-- <div class="form-group">
                         <i class="glyphicon glyphicon-search"></i>
                         <input ng-model="queryLocation"  type="text" class="form-control input-lg" placeholder="busca dónde entrenar por calle, nombre club, provincia..." autofocus="autofocus">
+
                         <span class="input-group-btn">
-                       <a href="#!/locations"><button  ng-click="getSearchGyms()" class="btn btn-default" type="submit">Encuéntralo!</button></a>
-                    </span>
-                        <!-- <a href="https://foursquare.com/explore?mode=url&ne=41.436678%2C2.232714&q=Gym%20%2F%20Fitness%20Center&sw=41.352459%2C2.08869" target="_blank">busqueda</a> -->
-                    </div>
+	                       <a href="#!/locations"><button  ng-click="getSearchGyms()" class="btn btn-default" type="submit">Encuéntralo!</button></a>
+	                    </span>
+
+                    </div> -->
+
+                    <!-- <a href="https://foursquare.com/explore?mode=url&ne=41.436678%2C2.232714&q=Gym%20%2F%20Fitness%20Center&sw=41.352459%2C2.08869" target="_blank">busqueda</a> -->
                 </form>
 <!--             <button type="button" class="btn btn-default page-scroll" aria-label="Left Align">
                 <a href="#section_club"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>

@@ -1,10 +1,6 @@
-<div ng-include src="'templates/includes/modals/modals.html'"></div>
+<div ng-include src="'templates/includes/modals/login.html'"></div>
+<div ng-include src="'templates/includes/modals/register.html'"></div>
 <!-- header -->
-
-<style type="text/css">
- 
-
-</style>
 
 <header id="header">
   <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
@@ -23,9 +19,8 @@
           <li class="scroll"><a href="#home">Home</a></li>
           <li class="scroll"><a href="#services">Servicios</a></li>
           <li class="scroll"><a href="#gallery">Galeria</a></li>
-          <li class="scroll" data-toggle="modal" data-target="#myModal" data-hover="Login">Login</li>
-          <li class="scroll" data-toggle="modal" data-target="#myModal2" data-hover="Registro">Registro
-          </li>
+          <li class="scroll"><a href="#" data-toggle="modal" data-target="#loginModal" data-hover="Login">Login</a></li>
+          <li class="scroll"><a href="#" data-toggle="modal" data-target="#registerModal" data-hover="Registro">Registro</a></li>
           <li class="scroll"><a href="#about">About</a></li>
           <li class="scroll" data-hover="Contact"><a href="#contact">Contacto</a></li>
         </ul>

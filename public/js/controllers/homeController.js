@@ -4,6 +4,7 @@ angular.module('gymApp')
 
     $scope.getSearchGyms = function () {
       var codeLocation = $scope.queryLocation
-      $location.path('/locations' + codeLocation)
+      $location.path('/locations/' + codeLocation)
     }
+
   })

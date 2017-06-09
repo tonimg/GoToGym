@@ -7,7 +7,7 @@ angular.module('gymApp')
         templateUrl: '../templates/home.html',
         controller: 'homeController'
       })
-      .when('/locations', {
+      .when('/locations/:location', {
         templateUrl: '../templates/locations.html',
         controller: 'locationController'
       })
