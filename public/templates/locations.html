@@ -1,18 +1,20 @@
-<!-- Theme from Juanma Restaurants -->
 <div id="results-container">
   <div id="results">
   <br>
   <br>
   <hr>
     <button ng-click="getLocations()"> ljabyukfcfxdh</button>
-    <ul class="list-unstyled lest-gyms">
+    <ul class="list-unstyled">
       <li ng-repeat="gym in gyms">
         <div class="thumbnail">
+          <div class="caption">
+            <h4> {{ gym.name }} </h4>
+            <p> {{ gym.description }} </p>
+            <p> {{ gym.postalCode }} </p>
+            <p> {{ gym.street }} <button class="glyphicon glyphicon-map-marker" ng-click="setCenter {{gym.latitude}}, {{gym.longitude}}"></button></p>
           <div class="container-image">
             <img class="img-bg" ng-style="{'background-image':'url({{ gym.image }})'}" ng-alt="{{ gym.name }}">
           </div>
-          <div class="caption">
-            <h4> {{ gym.name }} </h4>
           </div>
           </div>
       </li>
