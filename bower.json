@@ -18,7 +18,6 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "ekko-lightbox": "^5.1.1"
+    "font-awesome": "^4.7.0"
   }
 }
