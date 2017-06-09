@@ -4,8 +4,17 @@
   <br>
   <hr>
     <button ng-click="getLocations()"> ljabyukfcfxdh</button>
+      <form role="form">
+        <div class="form-group">
+          <h3>Filtra tus resultados</h3>
+          <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="club, direccion" autofocus="autofocus">
+        </div>
+        <div>
+          <p>Encontrados <strong>{{gym.length}}</strong> </p>
+        </div>
+      </form>
     <ul class="list-unstyled">
-      <li ng-repeat="gym in gyms">
+      <li ng-repeat="gym in gyms | filter: query">
         <div class="thumbnail">
           <div class="caption">
             <h4> {{ gym.name }} </h4>
