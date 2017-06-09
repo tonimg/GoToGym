@@ -4,7 +4,7 @@ server/data
 npm-debug.log
 .env
 curl_commands.md
-server/parser
+# server/parser
 data.txt
 .estructuredHTML.html
 .notes
