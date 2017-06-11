@@ -6,7 +6,7 @@
       <form role="form">
         <div class="form-group">
           <h3>Filtra tus resultados</h3>
-          <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="club, direccion" autofocus="autofocus">
+          <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="por club, barrio, calle,..." autofocus="autofocus">
         </div>
         <div>
           <p>Encontrados <strong>{{gym.length}}</strong> </p>
@@ -19,7 +19,7 @@
             <h4> {{ gym.name }} </h4>
             <p> {{ gym.description }} </p>
             <p> {{ gym.postalCode }} </p>
-            <p> {{ gym.street }} <button class="glyphicon glyphicon-map-marker"></button></p>
+            <p> {{ gym.street }} <button class="glyphicon glyphicon-map-marker""></button></p>
           <div class="container-image">
             <img class="img-bg" ng-style="{'background-image':'url({{ gym.image }})'}" ng-alt="{{ gym.name }}">
           </div>
@@ -30,6 +30,9 @@
     <hr>
     </div>
     <div id="map">
-      <ng-map id="main-map" center="41.381789, 2.172363" zoom="15"></ng-map>
+      <ng-map id="main-map" center="41.381789, 2.172363" zoom="15"
+      zoom-to-include-markers="true">
+      <marker ng-repeat="gym in gyms | filter: query " animation="DROP" position="{{ gym.latitude }}, {{ gym.longitud }}" title="{{ gym.name }}"></marker>
+      </ng-map>
     </div>
   </div>

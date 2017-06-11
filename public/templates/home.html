@@ -4,36 +4,20 @@
 <!-- <div class="cover_bg4"></div> -->
 <!-- title -->
 <div id="main-cover" class="main-cover-bg">
-	<div class="container-main-cover">
-    <div class="container" id="home">
+	<div class="container-main-cover" id="home">
+    <div class="container">
         <div row>
             <div class="col-md-offset-2 col-md-8">
-                <h1 class="top-title">GoTo Gym</h1>
+                <h1 class="top-title">GoToGym</h1>
                 <h3 class="title">Paga por lo que entrenas. Localiza tu centro más próximo y elige tu momento</h3>
-                <form role="form">
+                <form role="form" ng-submit="getSearchGyms()">
 	                <div class="input-group">
-				      <input ng-model="queryLocation" type="text" class="form-control" placeholder="Search for..." autofocus="autofocus">
+				      <input ng-model="queryLocation" type="text" class="form-control" placeholder="Busca dónde entrenar por provincia, por calle..." autofocus="autofocus">
 				      <span class="input-group-btn">
 				        <button ng-click="getSearchGyms()" class="btn btn-default" type="button">Buscar!</button>
 				      </span>
 				    </div>
-
-                    <!-- <div class="form-group">
-                        <i class="glyphicon glyphicon-search"></i>
-                        <input ng-model="queryLocation"  type="text" class="form-control input-lg" placeholder="busca dónde entrenar por calle, nombre club, provincia..." autofocus="autofocus">
-
-                        <span class="input-group-btn">
-	                       <a href="#!/locations"><button  ng-click="getSearchGyms()" class="btn btn-default" type="submit">Encuéntralo!</button></a>
-	                    </span>
-
-                    </div> -->
-
-                    <!-- <a href="https://foursquare.com/explore?mode=url&ne=41.436678%2C2.232714&q=Gym%20%2F%20Fitness%20Center&sw=41.352459%2C2.08869" target="_blank">busqueda</a> -->
                 </form>
-<!--             <button type="button" class="btn btn-default page-scroll" aria-label="Left Align">
-                <a href="#section_club"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
-            </button> -->
-
             </div>
         </div>
     	<br class="clearfix">
@@ -45,15 +29,19 @@
 <div id="services">
     <div ng-include src="'templates/services.html'"></div>
 </div>
+
 <div id="gallery">
     <div ng-include src="'templates/gallery.html'"></div>
 </div>
+
 <div id="about">
     <div ng-include src="'templates/about.html'"></div>
 </div>
+
 <div id="contact">
     <div ng-include src="'templates/contact.html'"></div>
 </div>
+
 <div>
     <div ng-include src="'templates/includes/footer.html'"></div>
 </div>

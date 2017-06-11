@@ -8,7 +8,7 @@ const GymSchema = new mongoose.Schema({
   },
   description: String,
   latitude: Number,
-  longitude: Number,
+  longitud: Number,
   postalCode: Number,
   street: String,
   image: String

@@ -2,10 +2,9 @@
 ----------------------------------------------------------------------------- */
 #map > * {
     margin-top: 60px;
-    margin: 0px;
     position: relative;
     position: fixed;
-    height:90vh;
+    height:89vh;
     width: 50%;
 }
 
@@ -18,8 +17,10 @@
 }
 
 #results {
-  width: 60%;
-  margin-top: -20px;
+    width: 60%;
+    margin-top: -25px;
+    margin-left: 6px;
+    margin-right: 3px;
 }
 
 #results header, header {
