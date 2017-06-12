@@ -16,9 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "#3.2.1",
     "bootstrap": "#3.3.7",
-    "font-awesome": "^4.7.0",
-    "lightbox2": "lightbox#^2.9.0"
+    "font-awesome": "^4.7.0"
   }
 }
