@@ -48,5 +48,3 @@ rp(URL)
 // esto para ejecutarlo y generar fichero --> node server/parser/get_data > data.txt
 
 // data.replace(/[\s]{2,}|\\n/g, '') // Este replace me quita los espacios en blanco dos o más "/[\s]{2,}" o "<|>" que tenga \n con esta otra expresión "\\n/g" y le digo que lo sustituya por un espacio en blanco.
-
-// node server/parser/get_data > data.txt
