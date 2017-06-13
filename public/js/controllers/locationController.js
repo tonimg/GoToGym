@@ -5,6 +5,5 @@ angular.module('gymApp')
     ApiService.getGymsByLocation(location)
       .then(gyms => {
         $scope.gyms = gyms
-        console.log(gyms)
       })
   })
