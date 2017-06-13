@@ -2,7 +2,7 @@
 google.maps.event.addDomListener(window, 'load', initialize)
 
 function initialize () {
-  /* position Amsterdam */
+  /* position Barcelona */
   var latlng = new google.maps.LatLng(41.381789, 2.172363)
 
   var mapOptions = {

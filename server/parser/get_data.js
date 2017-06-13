@@ -6,7 +6,11 @@ require('dotenv').load()
 const db = require('../config/db')
 const Gym = require('../models/Gym')
 
-const URL = 'https://www.gympass.com/es/gimnasios'
+/* const URL = 'https://www.gympass.com/es/gimnasios'
+https://www.gympass.com/es/gimnasios/en-ciudad/barcelona
+https://www.gympass.com/es/gimnasios/en-ciudad/a-coruna
+*/
+const URL = 'https://www.gympass.com/es/gimnasios/en-ciudad/madrid'
 let datas = []
 
 // const DB_URI = process.env.DB_URI
@@ -17,25 +21,29 @@ rp(URL)
   .then(bodyHtml => {
     const $ = cheerio.load(bodyHtml)
 
-    const $gyms = $('.rec_list_s.rec_list_s_container.col-xs-12.col-md-6')
+    // const $gyms = $('.rec_list_s.rec_list_s_container.col-xs-12.col-md-6')
+
+    const $gyms = $('.form-control.select2_city.city_state_select.select2-hidden-accessible')
+    data.city = elem.find('optgroup').text()
+
     $gyms.each((index, item) => {
       const elem = $(item)
 
       const data = {}
 
-      data.name = elem.find('h3').text()
+      // data.name = elem.find('h3').text()
 
-      data.description = elem.find('p').text()
+      // data.description = elem.find('p').text()
 
-      data.latitude = elem.find('meta[itemprop = "latitude"]').attr('content')
+      // data.latitude = elem.find('meta[itemprop = "latitude"]').attr('content')
 
-      data.longitud = elem.find('meta[itemprop = "longitude"]').attr('content')
+      // data.longitud = elem.find('meta[itemprop = "longitude"]').attr('content')
 
-      data.postalCode = elem.find('meta[itemprop = "postalCode"]').attr('content')
+      // data.postalCode = elem.find('meta[itemprop = "postalCode"]').attr('content')
 
-      data.street = elem.find('meta[itemprop = "address"]').attr('content')
+      // data.street = elem.find('meta[itemprop = "address"]').attr('content')
 
-      data.image = elem.find('.rec_list_image').attr('src')
+      // data.image = elem.find('.rec_list_image').attr('src')
 
       // const descriptionNoise = elem.find('p').text()
       // data.description = descriptionNoise.replace(/[\s]{2,}|\\n/g, '')
