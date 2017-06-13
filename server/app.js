@@ -17,8 +17,4 @@ app.use(express.static(path.join(__dirname, '../public')))
 app.use('/api/gyms', routesGyms)
 app.use('/api/gym', routesGym)
 
-// app.get('/api/gyms/:city', function (req, res) {
-
-// })
-
 module.exports = app
