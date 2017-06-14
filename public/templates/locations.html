@@ -1,35 +1,38 @@
 <div id="results-container">
   <div id="results">
-  <br>
-  <br>
-  <hr>
-      <form role="form">
-        <div class="form-group">
-          <h3>Filtra tus resultados</h3>
-          <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="por club, barrio, calle,..." autofocus="autofocus">
-        </div>
-      </form>
+    <br>
+    <br>
+    <hr>
+    <form role="form">
+      <div class="form-group">
+        <h3>Filtra tus resultados</h3>
+        <p><strong>Afina tú búsqueda..</strong></p>
+        <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="por club, barrio, calle,..." autofocus="autofocus">
+      </div>
+      <div>
+        <h6>Quieres una nueva busqueda? <a href="/#home"><button class="btn btn-default">Yes</button></a></h6>
+      </div>
+    </form>
     <ul class="list-unstyled">
       <li ng-repeat="gym in gyms | filter: query">
         <div class="thumbnail">
           <div class="caption">
-            <h4> {{ gym.name }} </h4>
+            <h3> {{ gym.name }} </h3>
             <p> {{ gym.description }} </p>
-            <p> {{ gym.postalCode }} </p>
-            <p> {{ gym.street }} <button class="glyphicon glyphicon-map-marker""></button></p>
-          <div class="container-image">
-            <img class="img-bg" ng-style="{'background-image':'url({{ gym.image }})'}" ng-alt="{{ gym.name }}">
+            <h5> {{ gym.postalCode }} </h5>
+            <h5> {{ gym.street }} <button class="glyphicon glyphicon-map-marker""></button></h5>
+            <div class="container-image">
+              <img class="img-bg" ng-style="{'background-image':'url({{ gym.image }})'}" ng-alt="{{ gym.name }}">
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
       </li>
     </ul>
     <hr>
-    </div>
-    <div id="map">
-      <ng-map id="main-map" center="41.381789, 2.172363" zoom="15"
-      zoom-to-include-markers="true">
-      <marker ng-repeat="gym in gyms | filter: query " animation="DROP" position="{{ gym.latitude }}, {{ gym.longitud }}" title="{{ gym.name }}"></marker>
-      </ng-map>
-    </div>
   </div>
+  <div id="map">
+    <ng-map id="main-map" center="41.381789, 2.172363" zoom="15" zoom-to-include-markers="true">
+      <marker ng-repeat="gym in gyms | filter: query " animation="DROP" position="{{ gym.latitude }}, {{ gym.longitud }}" title="{{ gym.name }}"></marker>
+    </ng-map>
+  </div>
+</div>
