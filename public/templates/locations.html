@@ -8,9 +8,6 @@
           <h3>Filtra tus resultados</h3>
           <input ng-model="query" type="text" class="form-control input-lg" id="input-filter" placeholder="por club, barrio, calle,..." autofocus="autofocus">
         </div>
-        <div>
-          <p>Encontrados <strong>{{gym.length}}</strong> </p>
-        </div>
       </form>
     <ul class="list-unstyled">
       <li ng-repeat="gym in gyms | filter: query">
