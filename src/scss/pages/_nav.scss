@@ -36,3 +36,11 @@ nav li a {
 
 #header nav #uppercase, #header nav #uppercase li, #header nav #uppercase li a {
   display: flex; }
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: -140px;
+  }

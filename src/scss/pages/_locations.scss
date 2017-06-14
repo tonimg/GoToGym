@@ -37,12 +37,16 @@
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+    margin-top: -15px;
 
     .caption {
     font-family: Dosis;
     font-size: 1.2em;
     padding: 9px;
     color: #333;
+        }
+        h3{
+          font-size:30px;
         }
     }
 }

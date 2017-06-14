@@ -66,6 +66,14 @@
 
 /* logo
 ----------------------------------------------------------------------------- */
+#logo-nav {
+  position: absolute;
+  width: 145px;
+  height: 50px;
+  margin-top: 6px;
+  margin-left: 20px;
+  background: rgba(255, 255, 255, 0.7); }
+
 /* Custom Styles Design */
 .clearfix {
   clear: both; }
@@ -137,12 +145,15 @@
     border-radius: 20px;
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out; }
+    transition: border .2s ease-in-out;
+    margin-top: -15px; }
     #results-container .thumbnail .caption {
       font-family: Dosis;
       font-size: 1.2em;
       padding: 9px;
       color: #333; }
+    #results-container .thumbnail h3 {
+      font-size: 30px; }
 
 #results {
   width: 40%;
@@ -479,6 +490,13 @@ nav li a {
 
 #header nav #uppercase, #header nav #uppercase li, #header nav #uppercase li a {
   display: flex; }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: -140px; }
 
 /* Footer section
 ---------------------------------- */
