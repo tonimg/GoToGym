@@ -3,7 +3,7 @@ require('dotenv').load()
 global.__base = __dirname + '/server/'
 
 const app = require('./server/app')
-const db = require('./server/config/db')
+const db = require('./server/config/db/db')
 
 const DB_URI = process.env.DB_URI
 const PORT = process.env.PORT || 3000
