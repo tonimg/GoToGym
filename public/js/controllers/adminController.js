@@ -19,6 +19,7 @@ angular.module('gymApp')
           { sorting: { _id: 'desc' } }, // initial sort order
           { dataset: gyms }
           )
+        secure:true
       })
     }
   })

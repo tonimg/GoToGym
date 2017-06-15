@@ -32,7 +32,7 @@
   </div>
   <div id="map">
     <ng-map id="main-map" center="41.381789, 2.172363" zoom="15" zoom-to-include-markers="true">
-      <marker ng-repeat="gym in gyms | filter: query " animation="DROP" position="{{ gym.latitude }}, {{ gym.longitud }}" title="{{ gym.name }}" ng-click="showDetail(gym)" ></marker>
+      <marker ng-repeat="gym in gyms | filter: query " animation="DROP" position="{{ gym.latitude }}, {{ gym.longitud }}" title="{{ gym.name }}, {{ gym.street }}"></marker>
     </ng-map>
   </div>
 </div>

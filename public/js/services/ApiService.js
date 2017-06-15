@@ -20,5 +20,10 @@ angular.module('gymApp')
       .then(response => response.data)
   }
 
-  return { getAllGyms, addGym, removeGym, getGymsByLocation }
+  function sendMessage (dataMessage) {
+    return $http.post('/contact', dataMessage)
+      .then(response => response.data)
+  }
+
+  return { getAllGyms, addGym, removeGym, getGymsByLocation, sendMessage }
 })

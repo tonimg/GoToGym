@@ -13,4 +13,8 @@ angular.module('gymApp')
         templateUrl: '/templates/admin.html',
         controller: 'adminController'
       })
+      .when('/contact', {
+        templateUrl: '/templates/contact.html',
+        controller: 'contactController'
+      })
   })

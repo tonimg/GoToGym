@@ -6,52 +6,6 @@
 #relative {
   position: relative; }
 
-/* css cover background image
----------------------------------- */
-.cover_bg1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: url(../img/img1.jpg) no-repeat center center fixed;
-  opacity: 0.3; }
-
-.cover_bg2 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: url(../img/img2.jpg) no-repeat center center fixed;
-  opacity: 0.5; }
-
-.cover_bg3 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: url(../img/par3.jpg) no-repeat center center fixed;
-  opacity: 0.3; }
-
-.cover_bg4 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: url(../img/par4.jpg) no-repeat center center fixed;
-  opacity: 0.3; }
-
-/* Parallax custom
----------------------------------- */
-[class*="cover_"] {
-  height: 100vh;
-  z-index: -1;
-  text-indent: -9999px;
-  /* fix background */
-  background-attachment: fixed;
-  /* center it */
-  background-position: center center;
-  /* Scale it nicely to the element */
-  background-size: cover;
-  /* just make it look a bit better ;) */ }
-  [class*="cover_"]:nth-child(2n) {
-    box-shadow: inset 0 0 1em #111; }
-
 /* input map search
 }
 ----------------------------------------------------------------------------- */
@@ -78,8 +32,6 @@
 .clearfix {
   clear: both; }
 
-/* @begin Navbar Adjustments w/ New Logo*/
-/* @end Navbar Adjustments w/ New Logo*/
 /* @begin Main Cover Adjustments */
 #home {
   margin-top: 59px; }
@@ -452,7 +404,7 @@
 /* Contact
 ---------------------------------- */
 #contact {
-  padding-top: 20px;
+  padding-top: 75px;
   background: none; }
 
 /* NavBar custom
