@@ -1,0 +1,32 @@
+<style type="text/css">
+  body{
+    margin-top: 70px;
+  }
+</style>
+
+
+<h1>This is Admin Area</h1>
+
+
+<table ng-table="tableParams" class="table table-condensed table-bordered table-striped">
+  <tr ng-repeat="row in $data">
+    <td data-title="'Image'">
+      <img width="50" ng-src="{{row.image}}" alt="" />
+    </td>
+    <td data-title="'ID'" sortable="'_id'">{{row._id}}</td>
+    <td data-title="'Name'" sortable="'name'">{{row.name}}</td>
+    <td data-title="'Description'" sortable="'description'">{{row.description}}</td>
+    <td data-title="'Actions'"><a class="btn btn-danger" role="button" ng-click="removeGym(row._id)">Remove</a></td>
+
+  </tr>
+</table>
+
+<table ng-table="tableParams" class="table" show-filter="true">
+    <tr ng-repeat="gym in $data">
+        <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
+            {{gym.name}}</td>
+        <td title="'Id'" filter="{ id: 'number'}" sortable="'id'">
+            {{gym._id}}</td>
+    </tr>
+</table>
+

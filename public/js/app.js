@@ -1,1 +1,1 @@
-angular.module('gymApp', ['ngRoute', 'ngMap'])
+angular.module('gymApp', ['ngRoute', 'ngMap', 'ngTable'])

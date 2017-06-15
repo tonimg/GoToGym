@@ -4,6 +4,11 @@ const bodyParser = require('body-parser')
 
 const app = express()
 
+const passport = require('./config/passport')
+
+const authRoutes = require('./routes/auth')
+const privateRoutes = require('./routes/private')
+
 const routesGyms = require('./routes/gyms')
 const routesGym = require('./routes/gym')
 
@@ -16,5 +21,9 @@ app.use(express.static(path.join(__dirname, '../public')))
 
 app.use('/api/gyms', routesGyms)
 app.use('/api/gym', routesGym)
+app.use(passport.initialize())
+
+app.use(authRoutes)
+app.use(privateRoutes)
 
 module.exports = app

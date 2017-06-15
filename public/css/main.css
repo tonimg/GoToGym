@@ -215,11 +215,10 @@
   padding-bottom: 115px; }
 
 #img_about {
-  height: 350px;
   display: block;
   position: absolute;
-  height: 600px;
-  top: -140px;
+  height: 555px;
+  top: -114px;
   left: 100px; }
 
 /* Services
