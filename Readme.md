@@ -22,7 +22,7 @@
 [![MongoDB](https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png)](https://www.mongodb.com/)
 
 
-<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" style="width: 200px;">MongoDB</a>
+<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "56px"; "></a>
 
 # GoToGym
 
