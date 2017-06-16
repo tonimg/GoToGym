@@ -80,8 +80,7 @@
 
 #results-container {
   display: flex;
-  font-size: 1em;
-  background: #f7f7f7; }
+  font-size: 1em; }
   #results-container .img-bg {
     width: 100%;
     height: 200px;

@@ -12,11 +12,9 @@ angular.module('gymApp')
       const dataMessage = { name, email, message }
 
       ApiService.sendMessage(dataMessage)
-      // console.log('dataMessage', dataMessage)
-        // $location.path('/')
-       .then(msg => {
-         swal('Success!', msg, 'success')
-         $location.path('/')
-       })
+         .then(msg => {
+           swal('Success!', msg, 'success')
+           $location.path('/')
+         })
     }
   })
