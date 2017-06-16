@@ -129,10 +129,10 @@ All dependencies will be installed automatically
 
 ### Acknowledgments
 
-[SkylabCoders](https://github.com/SkylabCoders)
-[JuanMa](https://github.com/juanmaguitar)
-[Alex](https://github.com/agandia9) 
-David
-Angels
-Bea
+- [SkylabCoders](https://github.com/SkylabCoders)
+- [JuanMa](https://github.com/juanmaguitar)
+- [Alex](https://github.com/agandia9) 
+- [David]()
+- [Angels]()
+- [Bea]()
 
