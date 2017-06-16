@@ -136,3 +136,7 @@ All dependencies will be installed automatically
 - [Angels]()
 - [Bea]()
 
+---
+
+Copyright © 2017 Toni.
+
