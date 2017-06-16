@@ -3,7 +3,7 @@
 
 [![MongoLab](https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png)](https://mlab.com/)
 
-<a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "56px"></a>
+<a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
 
 [![Nodemailer](https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png)](https://nodemailer.com)
 
@@ -24,7 +24,7 @@
 [![MongoDB](https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png)](https://www.mongodb.com/)
 
 
-<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "56px"></a>
+<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "128px"></a>
 
 # GoToGym
 
