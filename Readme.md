@@ -1,30 +1,29 @@
+<a href="http://www.skylabcoders.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png" width= "128px"></a>
 
-[![Skylab](https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png)](http://www.skylabcoders.com/)
-
-[![MongoLab](https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png)](https://mlab.com/)
+<a href="https://mlab.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png" width= "128px"></a>
 
 <a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
 
-[![Nodemailer](https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png)](https://nodemailer.com)
+<a href="https://nodemailer.com"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png" width= "128px"></a>
 
-[![Sass](https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png)](http://sass-lang.com/)
+<a href="http://sass-lang.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png" width= "128px"></a>
 
-[![AngularJS](https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png)](https://angularjs.org/)
+<a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
 
-[![HTML5/CSS3](https://github.com/tonimg/Img-lang-programing/blob/master/html5-css3.png)](https://www.w3.org/standards/webdesign/htmlcss)
+<a href="https://www.w3.org/standards/webdesign/htmlcss"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/html5-css3.png" width= "128px"></a>
 
-[![Bootstrap](https://github.com/tonimg/Img-lang-programing/blob/master/Boostrap.png)](http://getbootstrap.com/)
+<a href="http://getbootstrap.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Boostrap.png" width= "128px"></a>
 
-[![JavaScript](https://github.com/tonimg/Img-lang-programing/blob/master/javascript.png)](https://www.javascript.com/)
+<a href="https://www.javascript.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/javascript.png" width= "128px"></a>
 
-[![Bower](https://github.com/tonimg/Img-lang-programing/blob/master/bower.png)](https://bower.io/)
+<a href="https://bower.io/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/bower.png" width= "128px"></a>
 
-[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
-[![MongoDB](https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png)](https://www.mongodb.com/)
-
+<a href="http://standardjs.com/"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" width= "128px"></a>
 
 <a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "128px"></a>
+
+
+
 
 # GoToGym
 
