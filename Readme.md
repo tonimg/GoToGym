@@ -1,7 +1,6 @@
 <a href="http://www.skylabcoders.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png" width= "156px"></a>
 
 <a href="https://mlab.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png" width= "128px"></a> <a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "128px"></a>
-
 <a href="https://www.javascript.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/javascript.png" width= "128px"></a>
 <a href="https://www.w3.org/standards/webdesign/htmlcss"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/html5-css3.png" width= "128px"></a>
 <a href="http://sass-lang.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png" width= "128px"></a>
