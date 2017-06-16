@@ -1,9 +1,11 @@
 
 [![Skylab](https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png)](http://www.skylabcoders.com/)
 
-[![MongoLab](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/MLab_company_logo.svg/512px-MLab_company_logo.svg.png)](https://mlab.com/)
+[![MongoLab](https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png)](https://mlab.com/)
 
-[![Nodemailer](https://nodemailer.com/nm_logo_200x136.png)](https://nodemailer.com)
+<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "56px"></a>
+
+[![Nodemailer](https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png)](https://nodemailer.com)
 
 [![Sass](https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png)](http://sass-lang.com/)
 
