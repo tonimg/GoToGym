@@ -56,6 +56,13 @@ You need to create an **.env** file in the project root with the following envir
     SECRET=XXXXXXXXXXXXXXXXXXXXXX
 ```
 
+- Email configuration:
+```
+    MAIL_ACCOUNT=XXXXX@XXXX.com
+    MAIL_PASSWORD=XXXXXXXXX   
+```
+
+
 ### To run the server:
 
 ```
@@ -66,7 +73,7 @@ All dependencies will be installed automatically
 
 ## Built with:
 
-* **SublimeText**
+* **SublimeText Editor**
 
 * **Front-end**
     - AngularJS 1.6.2
@@ -106,6 +113,7 @@ All dependencies will be installed automatically
 ## References
 - [Nodemailer](https://nodemailer.com)
 - [Ng-Table](https://unpkg.com/ng-table@3.0.1/bundles/)
+- [Ng-Map](https://ngmap.github.io/)
 - [SweetAlert2](https://pixelovers.com/sweetalert2-el-mejor-sustituto-de-los-alert/amp/#disqus_thread)
 - [SmoothScroll](https://github.com/kswedberg/jquery-smooth-scroll)
 
