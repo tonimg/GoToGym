@@ -1,4 +1,4 @@
-<center><a href="http://www.skylabcoders.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png" width= "128px"></a></center>
+<a href="http://www.skylabcoders.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png" width= "156px"></a>
 
 <a href="https://mlab.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png" width= "128px"></a> <a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "128px"></a>
 
@@ -9,10 +9,10 @@
 <a href="http://jquery.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/jquery_logo.png" width= "128px"></a>
 <a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
 <a href="https://bower.io/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/bower.png" width= "128px"></a>
-
 <a href="https://nodemailer.com"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png" width= "128px"></a>
 <a href="https://nodejs.org/en/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Node.js.png" width= "128px"></a>
 <a href="https://www.npmjs.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/npm.png" width= "128px"></a>
+<a href="https://www.sublimetext.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Sublimetext.png" width= "128px"></a>
 
 
 <a href="http://standardjs.com/"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" width= "128px"></a>
