@@ -19,7 +19,7 @@
 
 # GoToGym
 
-This repo contains ** Full-Stack** (**MEAN**) project GoToGym in which users can find and search for local gyms and different activities. 
+This repository contains **Full-Stack** (**MEAN**) project GoToGym in which users can find and search for local gyms and different activities. 
 
 Can be seen online at: [https://gotogymapp.herokuapp.com/](https://gotogymapp.herokuapp.com/)
 
@@ -29,7 +29,7 @@ GoToGym is made with **NodeJS** and **ExpressJS** for the part of the server, an
 
 All the code has been developed under the [JavaScript Standard Style](http://standardjs.com/) and the style guide of the John Papa
 
-## Topics
+## Topics
 
 Topics covered in this demo:
 
@@ -129,9 +129,9 @@ All dependencies will be installed automatically
 
 ### Acknowledgments
 
-Skylabcoders
-JuanMa
-Alex 
+[SkylabCoders](https://github.com/SkylabCoders)
+[JuanMa](https://github.com/juanmaguitar)
+[Alex](https://github.com/agandia9) 
 David
 Angels
 Bea
