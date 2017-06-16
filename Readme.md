@@ -19,11 +19,30 @@
 
 # GoToGym
 
-This repo contains full-stack project GoToGym in which users can find and search for local gyms and different activities.
+This repo contains ** Full-Stack** (**MEAN**) project GoToGym in which users can find and search for local gyms and different activities. 
+
+Can be seen online at: [https://gotogymapp.herokuapp.com/](https://gotogymapp.herokuapp.com/)
 
 GoToGym is made with **NodeJS** and **ExpressJS** for the part of the server, and the client part is made with **AngularJS**.
 
+## Coding Style
 
+All the code has been developed under the [JavaScript Standard Style](http://standardjs.com/) and the style guide of the John Papa
+
+## Topics
+
+Topics covered in this demo:
+
+- **API endpoints** using data from a **MongoDb collection** to retrieve data or perform actions
+
+- **Angular App** using this data to display the info to the user
+    + **controllers**
+    + **services**
+    + **routes**
+
+- **Google Maps**
+
+    
 ## Installation
 
 You need to have installed [NodeJS](https://nodejs.org/) with [npm](https://www.npmjs.com/), [bower](https://bower.io/) and [MongoDB](https://www.mongodb.com/)
@@ -79,7 +98,7 @@ All dependencies will be installed automatically
     - SweetAlert: 2
     - lightbox2: 2.51
 
-* **Fonst**
+* **Fonts**
     - Oleo+Scripts
     - Asap
     - IM Fell Great Primer SC
@@ -107,4 +126,13 @@ All dependencies will be installed automatically
 - [Ng-Map](https://ngmap.github.io/)
 - [SweetAlert2](https://pixelovers.com/sweetalert2-el-mejor-sustituto-de-los-alert/amp/#disqus_thread)
 - [Smooth Scroll](https://cferdinandi.github.io/smooth-scroll/index.html)
+
+### Acknowledgments
+
+Skylabcoders
+JuanMa
+Alex 
+David
+Angels
+Bea
 
