@@ -1,33 +1,21 @@
-<a href="http://www.skylabcoders.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png" width= "128px"></a>
-
-<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "128px"></a>
+<center><a href="http://www.skylabcoders.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png" width= "128px"></a></center>
 
 <a href="https://mlab.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongolab.png" width= "128px"></a>
-
-<a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
-
-<a href="https://nodemailer.com"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png" width= "128px"></a>
-
-<a href="http://sass-lang.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png" width= "128px"></a>
-
-<a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
-
-<a href="https://www.w3.org/standards/webdesign/htmlcss"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/html5-css3.png" width= "128px"></a>
-
-<a href="https://nodejs.org/en/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Node.js.png" width= "128px"></a>
-
-<a href="http://jquery.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/jquery_logo.png" width= "128px"></a>
-
-<a href="http://getbootstrap.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Boostrap.png" width= "128px"></a>
+<a href="https://www.mongodb.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png" width= "128px"></a>
 
 <a href="https://www.javascript.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/javascript.png" width= "128px"></a>
-
+<a href="https://www.w3.org/standards/webdesign/htmlcss"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/html5-css3.png" width= "128px"></a>
+<a href="http://sass-lang.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png" width= "128px"></a>
+<a href="http://jquery.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/jquery_logo.png" width= "128px"></a>
+<a href="http://getbootstrap.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Boostrap.png" width= "128px"></a>
+<a href="https://angularjs.org/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png" width= "128px"></a>
 <a href="https://bower.io/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/bower.png" width= "128px"></a>
+<a href="https://nodemailer.com"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Nodemailer.png" width= "128px"></a>
+
+<a href="https://nodejs.org/en/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/Node.js.png" width= "128px"></a>
+<a href="https://www.npmjs.com/"><img src="https://github.com/tonimg/Img-lang-programing/blob/master/npm.png" width= "128px"></a>
 
 <a href="http://standardjs.com/"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" width= "128px"></a>
-
-
-
 
 
 # GoToGym
