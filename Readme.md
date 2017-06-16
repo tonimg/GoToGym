@@ -1,24 +1,14 @@
 
 [![Skylab](https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png)](http://www.skylabcoders.com/)
-
 [![MongoLab](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/MLab_company_logo.svg/512px-MLab_company_logo.svg.png)](https://mlab.com/)
-
 [![Nodemailer](https://nodemailer.com/nm_logo_200x136.png)](https://nodemailer.com)
-
 [![Sass](https://github.com/tonimg/Img-lang-programing/blob/master/Sass.png)](http://sass-lang.com/)
-
 [![AngularJS](https://github.com/tonimg/Img-lang-programing/blob/master/AngularJS.png)](https://angularjs.org/)
-
 [![HTML5/CSS3](https://github.com/tonimg/Img-lang-programing/blob/master/html5-css3.png)](https://www.w3.org/standards/webdesign/htmlcss)
-
 [![Bootstrap](https://github.com/tonimg/Img-lang-programing/blob/master/Boostrap.png)](http://getbootstrap.com/)
-
 [![JavaScript](https://github.com/tonimg/Img-lang-programing/blob/master/javascript.png)](https://www.javascript.com/)
-
 [![Bower](https://github.com/tonimg/Img-lang-programing/blob/master/bower.png)](https://bower.io/)
-
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
 [![MongoDB](https://github.com/tonimg/Img-lang-programing/blob/master/mongodb.png)](https://www.mongodb.com/)
 
 
