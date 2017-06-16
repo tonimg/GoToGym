@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer')
 
 function contactMail (req, res) {
-  const { name, email, subject, message } = req.body
+  const { name, email, message } = req.body
 
   const myMail = process.env.MAIL_ACCOUNT
   const myPassword = process.env.MAIL_PASSWORD
@@ -20,9 +20,13 @@ function contactMail (req, res) {
 
   const subjectMail = 'You have a contact request from your webpage!!!'
   const messageMail = `
+
 ${name} with email ${email} has sent you this message:
-  Subject: ${subject}
-  Message: ${message}
+
+  Message: 
+  
+    ${message}
+
 `
   // setup email data with unicode symbols
   let mailOptions = {
