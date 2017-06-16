@@ -23,7 +23,6 @@
 
 
 
-
 # GoToGym
 
 This repo contains full-stack project GoToGym in which users can find and search for local gyms and different activities.
