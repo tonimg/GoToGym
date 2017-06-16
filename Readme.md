@@ -1,6 +1,4 @@
 
-Libraries --> [Smooth Scroll](https://cferdinandi.github.io/smooth-scroll/index.html)
-
 [![Skylab](https://github.com/tonimg/Img-lang-programing/blob/master/skylab.png)](http://www.skylabcoders.com/)
 
 [![MongoLab](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/MLab_company_logo.svg/512px-MLab_company_logo.svg.png)](https://mlab.com/)
@@ -115,5 +113,5 @@ All dependencies will be installed automatically
 - [Ng-Table](https://unpkg.com/ng-table@3.0.1/bundles/)
 - [Ng-Map](https://ngmap.github.io/)
 - [SweetAlert2](https://pixelovers.com/sweetalert2-el-mejor-sustituto-de-los-alert/amp/#disqus_thread)
-- [SmoothScroll](https://github.com/kswedberg/jquery-smooth-scroll)
+- [Smooth Scroll](https://cferdinandi.github.io/smooth-scroll/index.html)
 
